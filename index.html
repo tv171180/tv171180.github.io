@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
+    
+    <style>
+*{
+    border: 1px solid red;
+}
+    </style>
 </head>
+
 <body>
     <header>
         <a href="index.html"><img src="#" alt="логотип Celestia">
         </a>
         <nav>
-              <a href="#">Главная</a>
-              <a href="#">Событие</a>
-              <a href="#">Акции</a>
-              <a href="#">Отзывы</a>
-              <a href="#">FAQ</a>
-              <a href="#">Контакты</a>
+            <a href="#">Главная</a>
+            <a href="#">Событие</a>
+            <a href="#">Акции</a>
+            <a href="#">Отзывы</a>
+            <a href="#">FAQ</a>
+            <a href="#">Контакты</a>
         </nav>
         <ul>
             <li>
@@ -23,11 +31,228 @@
             </li>
         </ul>
         <a href="tel:+78123363636">(812) 336 36 36</a>
+        <a href="#">купить билет</a>
+        <button type="button">открыть дополнительное меню</button>
+
     </header>
     <main>
+        <section class="about_planetarium">
+            <div class="promo-first">
+                <h1>Celestia - интерактивный планетарий</h1>
+                <h2>информация о компании и акциях</h2>
+                <p>Раскройте тайны звезд с помощью <span style="color: red; font-weight: bold;">Celestia</span></p>
+                <p>Мы проводим специальные мероприятия, такие как ночи наблюдения за звездами, лекции и многое другое
+                </p>
+                <a href="#">Подробнее</a>
+            </div>
+            <ul class="promo-second">
+                <li class="promo-second-elderly">
+                    <p>20%</p>
+                    <p>скидка пенсионерам</p>
+                    <a href="#"><img src="#" alt="переход по ссылке"></a>
+
+                </li>
+                <li class="promo-second-couple">
+                    <p>для парочек</p>
+                    <p>ночи наблюдения за звездами</p>
+                    <a href="#"><img src="#" alt="переход по ссылке"></a>
+
+                </li>
+            </ul>
+            <ul class="promo-second-info">
+                <li>
+                    <span>>20</span>
+                    телескопов
+                </li>
+                <li>
+                    <span>>100</span>
+                    программ
+                </li>
+                <li>
+                    <span>>50</span>
+                    залов
+                </li>
+
+            </ul>
+
+        </section>
+        <section class="events">
+            <h2>События</h2>
+            <ul class="types_of_events">
+                <li>
+                    <button>Программы</button>
+                </li>
+                <li>
+                    <button>Мероприятия</button>
+                </li>
+                <li>
+                    <button>Лекции</button>
+                </li>
+            </ul>
+            <ul class="events_blocks">
+                <li class="event_program">
+                    <div class="blocks_img">
+                        <img src="#" alt="арт звездного неба">
+                        <p class="event_p">7+</p>
+                    </div>
+                    <p>полнокупольная программа</p>
+                    <h3>прогулка по звездному небу</h3>
+                    <p>
+                        Мы предлагаем вам прогуляться по самым ярким созвездиям 
+                        северного полушария, насладиться петербургским звездным небом 
+                        всех сезонов, полюбоваться Млечным Путем и, конечно, 
+                        загадать заветное желание на "падающую" звезду
+                    </p>
+                   <div class="benefits">
+                    <img src="#" alt="миниатюра ребенка">
+                    <p>400 ₽</p>
+                    <img src="#" alt="миниатюра матери">
+                    <p>600 ₽</p>
+                   </div>               
+<form action="#">
+    <label>
+    <select name="date" id="date" aria-label="выбрать дату">
+        <option value="month">
+            выбрать дату
+        <option value="month">
+            понедельник
+        </option>
+        <option value="month">
+            вторник
+        </option>
+        <option value="month">
+            среда
+        </option>
+    </select>
+</label>
+<a href="#">Купить билет</a>
+</form>
+                </li>
+            </ul>
+            <button type="button">Показать еще</button>
+        </section> 
+        <section class="sales">
+            <h2>Акции и скидки</h2>
+            <ul>
+                <li>
+                    <img src="#" alt="пенсионеры в планетарии">
+                    <div class="sales-info">
+                        <h3>Скидка для пенсионеров</h3>
+                        <p>Все пенсионеры получат 20% скидку на билет при посещении планетария</p>
+                        <a href="#">узнать подробнее</a>
+                    </div>
+                </li>
+            </ul>
+            <button><img src="#" alt="стрелка влево"></button>
+            <button><img src="#" alt="стрелка вправо"></button>
+        </section>
+        <section class="rewies">
+            <h2>Отзывы и отметки</h2>
+            <ul class="rewies_items">
+                <li>
+                    <img src="#" alt="avatar">
+                </li>
+                <li>
+                    <figure>
+                        <img src="#" alt="avatar">
+                        <figcaption>
+                            <p>Михаил П.</p>
+                            <p>фрилансер</p>
+                        </figcaption>
+                    </figure>
+                    <p>Виды из телескопа были невероятными, 
+                        а викторины для детей были веселыми и интересными.</p>
+                        <p>Я настоятельно рекомендую планетарий всем, 
+                            кто хочет почувствовать незабываемое впечатление 
+                            и познать немного про нашу вселенную!</p>
+                </li>
+                <li>
+                    <img src="#" alt="avatar">
+                </li>
+            </ul>
+            <button><img src="#" alt="стрелка влево"></button>
+            <button><img src="#" alt="стрелка вправо"></button>
+        </section>
+        <section class="question">
+            <h2>Часто задаваемые вопросы</h2>
+            <ul class="question_items">
+                <li>
+                    <details>
+                        <summary>
+                            <span>Какие возможности есть для детей 
+                                на выставках в планетарии?
+                            </span>
+                            <button type="button">+</button>
+                        </summary>
+                            <p>Выставка фотографий и изображений космических объектов, 
+                                интерактивные демонстрации о нашей Солнечной cистеме, 
+                                путешествиях по галактикам и другим небесным телам. 
+                                Также проводятся лекции и семинары о космической науке и астрономии, 
+                                а иногда даже организуются ночные наблюдения за звездами.
+                            </p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>
+                            <span>Какова стоимость посещения выставок и событий в планетарии?
+                            </span>
+                            <button type="button">+</button>
+                        </summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Quidem, alias accusantium recusandae natus corporis minus 
+                                cum amet error odit doloribus tenetur eius, 
+                                distinctio doloremque quis deleniti quae ducimus debitis neque?
+                            </p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>
+                            <span>Какие выставки и события, посвященные космосу, проходят в планетарии?
+                            </span>
+                            <button type="button">+</button>
+                        </summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Quidem, alias accusantium recusandae natus corporis minus 
+                                cum amet error odit doloribus tenetur eius, 
+                                distinctio doloremque quis deleniti quae ducimus debitis neque?
+                            </p>
+                    </details>
+                </li>
+            </ul>
+            <button type="button">показать еще</button>
+        </section>
+        <section class="booking">
+            <h2>
+                Ваш билет в космос — быстрая запись на экскурсию
+            </h2>
+            <img src="#" alt="пара космонавтов">
+            <p>Запишитесь на экскурсию в планетарий.
+                Просто укажите ваше имя, электронную почту и дату, 
+                и мы свяжемся с вами для подтверждения
+            </p>
+                <form action="#">
+                    <label>
+                        <input type="text" name="name" placeholder="Введите ваше имя">
+                    </label>
+                    <label>
+                        <input type="tel" name="tel" placeholder="Номер телефона">
+                    </label>
+                    <label>
+                        <select name="date" id="dates">
+                            <option value="date1">Дата посещения</option>
+                            <option value="date1">понедельник</option>
+                        </select>
+                    </label>
+                    <button type="submit">Отправить</button>
+                </form>
+        </section>
 
     </main>
     <footer>
+        <h2>как нас найти?</h2>
+        <img src="#" alt="карта">
 
     </footer>
 </body>

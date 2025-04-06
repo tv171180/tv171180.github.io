@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Gilroy Regular";
+    font-style: normal;
+    font-weight: 400d;
+    src: url("/fonts/gilroy-regular.ttf) format("truetype");
+    }
+    
+    @font-face {
+        font-family: "Gilroy Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("/fonts/gilroy-medium.ttf) format("truetype");
+        }
+    
+@font-face {
+            font-family: "Benzin Bold";
+            font-style: normal;
+            font-weight: bold;
+            src: url("/fonts/benzin-bold.ttf) format("opentype");
+            }
+
+:root{
+    font-size: 62.5%;
+    --background-color: #131313;
+    --primary-color: #FFFFFF;
+    --secondary-color: #3805F2;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: #1e1e1e;
+    --blue-text-color: #3805F2;
+    --details-text-color: #000000;
+    --border-color: gray;
+}
+
+*{ 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--primary-text-color);
+    font-family: "Gilroy Regular"; sans-serif;
+    font-size: 1.2rem;
+    line-height: 140%;
+}
+
+h1, h2 {
+    font-family: "Benzin Bold"; "Roboto", sans-serif;
+    font-size: 2rem;
+    line-height: 110%;
+    }
+
+    h3 {
+        font-family: "Benzin Bold"; "Roboto", sans-serif;
+        font-size: 1.2rem;
+        line-height: 110%;
+    }
+
+    nav {
+        display: none;
+    }
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    color: var(--primary-text-color);
+    border: none;
+    background-color: var(--background-color);
+    cursor: pointer;    
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    cursor: pointer; 
+}
+.promo-first {
+    background-color: var(--primary-color);
+    color: var(--details-text-color);
+}
+.slogan {
+    color: var(--details-text-color);
+    font-family: "Benzin Bold"; "Roboto", sans-serif;
+    font-size: 2rem;
+    line-height: 110%;
+}
+
+.slogan span {
+    color: var(--blue-text-color);
+}
+
+.promo-first a {
+    background-color: var(--secondary-color);
+    font-family: "Benzin Bold"; "Roboto", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 20px;  
+}
+
+.promo-second-elder {
+    background-color: var(--secondary-color);
+}
+
+.promo-second-couple {
+    background-color: var(--primary-color);
+    color: var(--details-text-color);
+}
+
+.promo-second-info span{
+    font-family: "Benzin Bold"; "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+
+.types_of_events button {
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+
+.types_of_events button:active {
+        border: 0;
+        background-color: var(--secondary-color);
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
